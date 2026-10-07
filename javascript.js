@@ -9,6 +9,7 @@ function Book(title, author, pages, read) {
     this.author = author;
     this.pages = pages;
     this.read = read;
+    this.id = crypto.randomUUID() 
 }
 
 const book1 = new Book("The Hobbit", "J.R.R. Tolkien", 295, "not read");
