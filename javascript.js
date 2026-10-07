@@ -12,6 +12,16 @@ function Book(title, author, pages, read) {
     this.id = crypto.randomUUID() 
 }
 
-const book1 = new Book("The Hobbit", "J.R.R. Tolkien", 295, "not read");
+function addBookToLibrary(book) {
+    myLibrary.push(book);
+}
 
-console.log(book1);
+const book1 = new Book("The Hobbit", "J.R.R. Tolkien", 295, "not read");
+const book2 = new Book("Harry Potter", "J. K. Rowling", 223, "read");
+
+
+addBookToLibrary(book1);
+addBookToLibrary(book2);
+
+console.log(myLibrary);
+
