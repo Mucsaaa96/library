@@ -20,3 +20,8 @@ footer {
 footer > a {
     color: white;
 }
+
+.card {
+    color: white;
+    list-style: none;
+}
