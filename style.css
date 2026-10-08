@@ -1,3 +1,22 @@
 body {
-    background-color: aqua;
+    background-image: url(./assets/images/library-image.jpg);
+    background-size: cover;
+}
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    width: 100vw;
+    color: white;
+    margin: 1.5rem;
+}
+
+footer > a {
+    color: white;
 }
