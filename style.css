@@ -21,7 +21,27 @@ footer > a {
     color: white;
 }
 
+#grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 300px);
+}
+
 .card {
     color: white;
     list-style: none;
+    margin: 2rem;
+    background-color: rgba(211, 169, 114, 0.15);
+    padding: 2rem;
+    height: 300px;
+    font-size: 1.2rem;
+    line-height: 2rem;
+    text-align: center;
+    border-radius: 15px;
+    transition: transform 0.5s;
 }
+
+.card:hover {
+    transform: translate(-5px, -5px) scale(1.05);
+    cursor: pointer;
+}
+
