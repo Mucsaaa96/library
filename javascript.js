@@ -33,6 +33,11 @@ addBookToLibrary("Harry Potter and the Philosopher's Stone", "J. K. Rowling", 22
 addBookToLibrary("Carrie", "Stephen King", 253, "read");
 addBookToLibrary("A Court of Thorns and Roses", "Sarah J. Maas", 429, "read");
 addBookToLibrary("Fourth Wing", "Rebecca Yaros", 528, "read");
+addBookToLibrary("Sherlock Holmes: The Sign of The Four", "Sir Arthur Conan Doyle", 283, "read");
+addBookToLibrary("Dune", "Frank Herbert", 412, "not read");
+addBookToLibrary("The Count of Monte Cristo", "Alexandre Dumas", 1312, "read");
+addBookToLibrary("Romeo and Juliet", "William Shakespeare", 141, "read");
+
 
 displayBooks();
 
