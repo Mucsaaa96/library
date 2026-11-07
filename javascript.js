@@ -21,10 +21,12 @@ function displayBooks() {
     myLibrary.forEach((book) => {
         const gridContainer = document.querySelector("#grid-container");
         const card = document.createElement("li");
+        const addBook = document.querySelector(".add-book")
+
         card.classList.add("card");
         card.textContent = `Title: ${book.title}; Author: ${book.author};
          Pages: ${book.pages}; Read: ${book.read}`;
-        gridContainer.appendChild(card);
+        gridContainer.insertBefore(card, addBook);
     })
 }
 
